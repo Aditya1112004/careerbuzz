@@ -1,0 +1,96 @@
+<%-include('partials/navbar.ejs')%>
+<head>
+    <style>
+        .ccards{
+            padding: 10px 0;
+        }
+        .ccards h1{
+            font-size: 50px;
+        }
+        .card{  
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 500px;
+            z-index: -2;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .card img{
+            width: 1535px;
+            height: 500px;
+            position: absolute;
+            z-index: -1;       
+            filter: blur(3px); 
+        }
+        .card .content{
+            z-index: 100;
+            color: white;
+            margin-top: 50px;
+        }
+        .card .content h2{
+            width: 60%;
+            margin-left: 20%;
+            margin-top: 70px;
+            color: #fff;
+        }
+        .card .content h2 a{
+            cursor: pointer;
+            font-size: 18px;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body><div class="ccards">
+    
+    <div class="card">
+        <img src="/images/bgav.jpg" alt="">
+        <div class="content">
+        <h1>Popular Business Trends of the Next 10 Years</h1>
+        <h2>Keeping updated with the latest business trends can help organizations plan for the future and implement exciting innovations to increase profitability and customer satisfaction.</h2><br>
+        <a href="https://www.indeed.com/career-advice/career-development/business-trends">Learn more...</a>
+        
+        </div>
+    </div>
+
+      <div class="card" style="color: black;">
+        <img src="/images/imggg.jpg" alt=""style="color: black;">
+        <div class="content"style="color: black;">
+        <h1 style="color: black;">Top 10 Green Technology Companies in the USA 2023</h1>
+        <h2 style="color: black;">  In the pursuit of sustainable development and environmental conservation, green technology has emerged as a powerful solution to address pressing global challenges.</h2>
+        <a  style="color: black;" href="https://www.analyticsinsight.net/top-10-green-technology-companies-in-the-usa-2023/">Learn more...</a>
+        </div>
+    </div>
+
+      <div class="card">
+        <img src="/images/all.jpg" alt="">
+        <div class="content">
+        <h1>India's Global Tech Alliance Choices Will Reduce Its Relevance </h1>
+        <h2>The overarching belief in India is that under Prime Minister Narendra Modi, the country has emerged as a global balancer amidst the ‘great changes unseen in a century’ – as Chinese President Xi Jinping calls the reshaping of the twin global geopolitical and economic orders. </h2><br>
+        <a href="https://thewire.in/diplomacy/indias-global-tech-alliance-choices-will-reduce-its-relevance-in-its-own-neighbourhood">Learn more...</a>
+        </div>
+    </div>
+
+      <div class="card">
+        <img src="/images/iitn.jpg" alt=""style="color: black;">
+        <div class="content"style="color: black;">
+        <h1 >Tech innovation centre inaugurated at IIT-H</h1>
+        <h2 >The Indian Institute of Technology in Hyderabad (IIT-H) has joined hands with Indian Navy Weapons and Electronics Systems Engineering Establishment (WESEE) for strategic collaboration.</h2><br>
+        <a   href="https://www.thehindu.com/news/national/telangana/tech-innovation-centre-inaugurated-at-iit-h/article66897286.ece">Learn more...</a>
+        </div>
+    </div>
+
+      <div class="card">
+        <img src="/images/bgav.jpg" alt="">
+        <div class="content">
+        <h1>Explore the top 10 green technology companies in the USA </h1>
+        <h2>Tesla Inc. stands as a frontrunner in the green technology landscape, revolutionizing the transportation industry with its electric vehicles (EVs) and renewable energy solutions. Tesla’s commitment to sustainable development is exemplified by its popular electric car models which have contributed to a significant reduction in carbon emissions from the transportation sector.</h2><br>
+        <a href="https://www.analyticsinsight.net/top-10-green-technology-companies-in-the-usa-2023/">Learn more...</a>
+        </div>
+    </div>
+</div>
+</body>
+
+
+
+<%-include('partials/footer.ejs')%>

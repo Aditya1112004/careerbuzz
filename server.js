@@ -46,6 +46,12 @@ app.get("/future", (req, res) => {
   res.render("future");
 });
 
+
+//blog
+app.get("/blog", (req, res) => {
+  res.render("blog");
+});
+
 //google
 app.get("/gogle", (req, res) => {
   res.render("gogle");
