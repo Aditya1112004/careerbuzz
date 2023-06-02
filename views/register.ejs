@@ -1,0 +1,75 @@
+<%-include('partials/header.ejs')%>
+<head>
+  <link rel="stylesheet" href="/css/loginRegister.css" />
+</head>
+
+
+<%-include('partials/navbar.ejs')%>
+
+<div class="main_container">
+  <div class="sub_con sub1">
+    
+    <div class="imgDiv">
+      <img src="/images/ll.svg" alt="Logo" class="loginlogo" />
+    </div>
+  </div>
+  <div class="sub_con sub2" style="margin-top:-40px;">
+    <form action="/register" method="post" class="form">
+      <h1>Register</h1>
+      <div class="field">
+        <label for="firstname">First Name</label>
+        <input
+          class="name"
+          name="firstname"
+          type="text"
+          placeholder="Eg: XYZ"
+          required
+        />
+      </div>
+      <div class="field">
+        <label for="lastname">Last Name</label>
+        <input
+          class="name"
+          name="lastname"
+          type="text"
+          placeholder="Eg: XYZ"
+          required
+        />
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          placeholder="Eg: example@gmail.com"
+          required
+        />
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          class="password"
+          placeholder="Eg: Pass@123"
+          required
+        />
+      </div>
+      <div class="field">
+        <label for="cpassword">Confirm Password</label>
+        <input
+          type="password"
+          name="cpassword"
+          class="password"
+          placeholder="Eg: Pass@123"
+          required
+        />
+      </div>
+      <div class="submitBtn">
+        <button type="submit">Signup</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<%-include('partials/footer.ejs')%>

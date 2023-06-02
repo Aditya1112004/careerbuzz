@@ -1,0 +1,38 @@
+.tech{
+margin-top: 280px;
+font-family: 'Roboto', sans-serif;
+}
+.tech h1{
+    font-weight: bold;
+    color:#004d8b;
+    text-align: center;
+}
+.hr{
+    width: 70%;
+    margin-left: 15%;
+}
+.techtrend{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 100px  ;
+}
+.techtrend .sub{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 1   0px;
+}
+.techtrend .sub img{
+    width: 500px;
+    margin-left: 50px;
+    border-radius: 5px;
+}
+.techtrend p .h{
+    font-size: 28px;
+font-family: 'Roboto', sans-serif;
+}
+.techtrend p{
+    margin-top: 50px;
+    font-size: 20px;
+}

@@ -1,0 +1,51 @@
+<%-include('partials/header.ejs')%>
+<head>
+  <link rel="stylesheet" href="/css/loginRegister.css" />
+</head>
+
+<%-include('partials/navbar.ejs')%>
+
+<div class="main_container">
+  <div class="sub_con sub1">
+    
+    <div class="imgDiv">
+      <img src="/images/ll.svg" alt="Logo" class="loginlogo" />
+    </div>
+  </div>
+  <div class="sub_con sub2">
+    <form action="/login" method="post" class="form">
+      <h1>Login</h1>
+      <div class="field">
+        <label for="email">Email Address</label>
+        <br>
+        <input
+          type="text"
+          name="email"
+          placeholder="Eg: Username@gmail.com"
+          required
+        />
+      </div>
+      <div class="field">
+        <label for="password">Password</label>
+        <br>
+        <input
+          type="password"
+          name="password"
+          placeholder="Eg: Pass@123"
+          required
+        />
+      </div>
+      <div class="submitBtn">
+        <button type="submit">Login</button>
+      </div>
+      <div class="links">
+        <span class="forget"> <a href="/404Error">Forgot password?</a></span>
+        <br><br>
+        <span class="signup"> <a href="/register">Signup</a></span>
+      </div>
+    </form>
+  </div>
+</div>
+
+
+<%-include('partials/footer.ejs')%>

@@ -1,0 +1,54 @@
+.main_container{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.sub_con{
+  width: 50%;
+}
+img{
+ width: 80%;
+ margin: 10%;
+}
+.sub2 .form{
+  width: 60%;
+  margin: 80px 20%;
+  padding: 30px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form h1{
+  font-family: sans-serif, "roboto";
+}
+.form .field{
+  width: 100%;
+  padding: 10px;
+}
+.field label{
+  font-weight: bold;
+  font-size: 15px;
+}
+.field input{
+  width: 100%;
+  padding: 2px 6px;
+  border: 1px solid grey;
+}
+.submitBtn button{
+  margin:20px 10px;
+  padding: 4px 15px;
+  color:#fff;
+  border: none;
+  width: 95%;
+  background-color: #0b64ad;
+  border-radius: 3px;
+}
+.form .links{
+  text-align: center;
+}
+.form .signup{
+  background-color: #0b64ad;
+  border-radius: 3px;
+  padding:5px 10px;
+}
+.signup a{
+  color: #fff;
+  text-decoration: none;
+}

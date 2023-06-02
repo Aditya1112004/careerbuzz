@@ -1,0 +1,37 @@
+<%-include('partials/navbar.ejs')%>
+<head>
+  <link rel="stylesheet" href="/css/contact.css" />
+</head>
+
+  <hr style="border:1px solid #000;width: 100%;">
+<div class="contacts">
+  
+    <h1 class="about" style="color: #000">Contact Us</h1>
+  <div class="cs2">
+    <form action="/contact" method="post" class="contactForm">
+      <input type="text" name="name" placeholder="name" />
+      <br />
+
+      <input type="email" name="email" placeholder="email" />
+      <br />
+      <textarea name="message" placeholder="message"></textarea>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <hr style="border:1px solid #000;width: 100%;">
+  <div class="cs1">
+    <div class="con">
+      <h3>Email:</h3>
+      <h3>careerbuzz@gmail.com</h3>
+      <br>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <a href=" https://wa.me/+918237577769?text=Thank%20You%20For%20Contacting%20Us."><i class="fa-brands fa-whatsapp"></i></a>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+  </div>
+</div>
+<%-include('partials/footer.ejs')%>

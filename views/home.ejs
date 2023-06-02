@@ -1,0 +1,57 @@
+<%-include('partials/navbar.ejs')%>
+
+<!-- hero -->
+<div class="hero">
+  <h2>Learn about companies and state-of-the-art tech</h2>
+  <h5>Learn more about what tech companies used and how to master them</h5>
+
+   <div class="searchContainer">
+      <div style="width: 100%">
+       
+        <select
+          class="search"
+          onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);"
+        >
+          <option value="">Search for Company Name</option>
+          <a href="gogle"><option value="Gogle">Google</option></a>
+          <a href="micro"><option value="micro">Microsoft</option></a>
+          <a href="meta"><option value="Meta">Meta</option></a>
+          <a href="tcs"><option value="tcs">TCS</option></a>
+        </select>
+        <i class="fa fa-search searchLogo"></i>
+      </div>
+      <br>
+      <div>
+        Trending: 
+        <div class="trending"><i class="fa fa-search"></i> Google...</div>
+        <div class="trending"><i class="fa fa-search"></i> Meta...</div>
+        <div class="trending"><i class="fa fa-search"></i> Microsoft...</div>
+      </div>
+    </div>
+
+    <!-- cards -->
+    <div class="cards">
+      <div class="card">
+        <img src="/images/card1.webp" alt="">
+        <h4>Explore</h4>
+        <p>Find out what technologies various companies are using & why. Learn whats hot & what's not.</p>
+      </div>
+      <div class="card">
+        <img src="/images/card2.webp" alt="">
+        <h4>Develop</h4>
+        <p> Found out what you love? Want to learn more? Articles, tutorials, guides; we have it all.</p></div>
+      <div class="card">
+        <img src="/images/card3.webp" alt="">
+        <h4>Apply</h4>
+        <p>Got what it takes? Find out all about companies and their recruitment process.</p></div>
+    </div>
+</div>
+
+<!-- tech trend -->
+<%-include('future.ejs')%>
+
+<!-- companies -->
+<img src="/images/company.png" alt="" style="width: 100%;">
+
+<!-- footer -->
+<%-include('partials/footer.ejs')%>
